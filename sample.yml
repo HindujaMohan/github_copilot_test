@@ -1,0 +1,22 @@
+----
+application:
+  name: TestApp
+  version: 1.0.0
+  environment: development
+database:
+  host: localhost
+  port: 5432
+  username: test_user
+  password: secure_password
+  name: test_db
+features:
+  enable_logging: true
+  enable_cache: false
+  beta_features:
+    - feature_x
+    - feature_y
+servers:
+  - name: server1
+    ip: 192.168.1.10
+  - name: server2
+    ip: 192.168.1.11
